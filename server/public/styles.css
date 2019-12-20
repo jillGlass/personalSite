@@ -63,16 +63,10 @@ body {
     font-size: 18px;
   }
   
-  /* .burger {
-    float: right;
-    padding: 15px 10px, 15px, 10px;
-    height: 48px;
-    cursor: pointer;
-  } */
+
 
   .container {
     display: grid;
-  
     grid-template-columns: 1fr 1fr 1fr;
   }
   

@@ -15,7 +15,7 @@ export class Main extends Component {
             </a>
             <div className="image">
               <a href="blog/blog.html">
-                <img src="images/blogfancy.svg" alt="blog icon" height="170" />
+                <img src="images/blogfancy.svg" alt="blog icon" height="140" />
               </a>
             </div>
           </section>
@@ -29,7 +29,7 @@ export class Main extends Component {
             </a>
             <div className="image">
               <a href="Work/work.html">
-                <img src="images/workfancy.svg" alt="blog icon" height="170" />
+                <img src="images/workfancy.svg" alt="blog icon" height="140" />
               </a>
             </div>
           </section>
@@ -43,7 +43,7 @@ export class Main extends Component {
             </a>
             <div className="image">
               <a href="About/about.html">
-                <img src="images/aboutfancy.svg" alt="blog icon" height="170" />
+                <img src="images/aboutfancy.svg" alt="blog icon" height="140" />
               </a>
             </div>
           </section>

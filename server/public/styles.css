@@ -118,7 +118,7 @@ body {
     justify-items: center;
   }
   
-  @media screen and (min-width: 775px) {
+  @media screen and (min-width: 950px) {
     .container {
       display: grid;
       grid-template-rows: 100vh;
@@ -126,7 +126,7 @@ body {
     }
   }
   
-  @media screen and (max-width: 775px) {
+  @media screen and (max-width: 950px) {
     body {
       margin: 0;
     }

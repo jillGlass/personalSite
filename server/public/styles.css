@@ -1,6 +1,6 @@
 body {
     margin: 0;
-  
+    height: 100vh;
     font-family: "Raleway", sans-serif;
   }
   
@@ -63,21 +63,16 @@ body {
     font-size: 18px;
   }
   
-  /* .burger {
-    float: right;
-    padding: 15px 10px, 15px, 10px;
-    height: 48px;
-    cursor: pointer;
-  } */
+
 
   .container {
     display: grid;
-  
     grid-template-columns: 1fr 1fr 1fr;
   }
   
   .column-1 {
     display: grid;
+    height: 100vh;
     background-color: #edc7b7;
     align-items: center;
     justify-items: center;
@@ -86,6 +81,7 @@ body {
   
   .column-2 {
     display: grid;
+    height: 100vh;
     background-color: #eee2dc;
     align-items: center;
     justify-items: center;
@@ -94,6 +90,7 @@ body {
   
   .column-3 {
     display: grid;
+    height: 100vh;
     background-color: #bab2b5;
     align-items: center;
     justify-items: center;
@@ -250,3 +247,5 @@ body {
     background-color: #eee2dc;
     cursor: default;
   }
+
+  

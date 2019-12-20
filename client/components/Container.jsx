@@ -1,19 +1,16 @@
-import React from "react"
-import { Link, HashRouter as Router } from "react-router-dom"
-import Nav from './Nav'
-import Main from './Main'
+import React from "react";
+import Nav from "./Nav";
+import Main from "./Main";
 
 class Container extends React.Component {
-    render() {
-      return (
-        <React.Fragment>
-          <Router>
-            <Nav />
-            <Main />
-          </Router>
-        </React.Fragment>
-      )
-    }
+  render() {
+    return (
+      <React.Fragment>
+        <Nav />
+        <Main />
+      </React.Fragment>
+    );
   }
-  
-  export default Container
+}
+
+export default Container;

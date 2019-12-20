@@ -1,6 +1,6 @@
 body {
     margin: 0;
-  
+    height: 100vh;
     font-family: "Raleway", sans-serif;
   }
   
@@ -72,6 +72,7 @@ body {
   
   .column-1 {
     display: grid;
+    height: 100vh;
     background-color: #edc7b7;
     align-items: center;
     justify-items: center;
@@ -80,6 +81,7 @@ body {
   
   .column-2 {
     display: grid;
+    height: 100vh;
     background-color: #eee2dc;
     align-items: center;
     justify-items: center;
@@ -88,6 +90,7 @@ body {
   
   .column-3 {
     display: grid;
+    height: 100vh;
     background-color: #bab2b5;
     align-items: center;
     justify-items: center;
@@ -244,3 +247,5 @@ body {
     background-color: #eee2dc;
     cursor: default;
   }
+
+  

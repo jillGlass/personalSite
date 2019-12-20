@@ -1,4 +1,5 @@
-import React from "react";
+import React from "react"
+import { Link, HashRouter as Router } from "react-router-dom"
 
 class Nav extends React.Component {
   render() {
@@ -6,11 +7,13 @@ class Nav extends React.Component {
       <div>
         <ul className="navigation">
           <div className="nav-right">
+              <Router>
             <li>
-              <a href="About/about.html" className="burger">
+              <Link to='/about' className="burger">
                 Jill Glass<br></br>Frontend Developer
-              </a>
+              </Link>
             </li>
+            </Router>
           </div>
         </ul>
       </div>

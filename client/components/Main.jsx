@@ -8,7 +8,7 @@ class Main extends React.Component {
         <Router>
           <div className="container">
             <div className="column-1">
-              <Link to="/blog">
+              {/* <Link to="/blog"> */}
                 <div className="title">Blog</div>
                 <p className="intro">Technical and learning reflections</p>
                 <div className="image">
@@ -18,10 +18,10 @@ class Main extends React.Component {
                     height="140"
                   />
                 </div>
-              </Link>
+              {/* </Link> */}
             </div>
             <div className="column-2">
-             <Link to="/work">
+             {/* <Link to="/work"> */}
               <div className="title">Work</div>
                 <p className="intro">Examples of projects and tinkerings</p>
                   <div className="image">
@@ -31,10 +31,10 @@ class Main extends React.Component {
                       height="140"
                     />
                  </div>
-             </Link>
+             {/* </Link> */}
             </div>
             <div className="column-3">
-              <Link to="/about">
+              {/* <Link to="/about"> */}
                 <div className="title">About</div>
                 <p className="intro">Contact details and a little about me</p>
                   <div className="image">
@@ -44,7 +44,7 @@ class Main extends React.Component {
                       height="140"
                     />
                   </div>
-              </Link>
+              {/* </Link> */}
             </div>
             </div>
         </Router>

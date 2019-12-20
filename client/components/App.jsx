@@ -3,6 +3,7 @@ import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 import Container from './Container'
 import About from './About'
 import Work from './Work'
+import Blog from './Blog'
 
 
 const App = () => {

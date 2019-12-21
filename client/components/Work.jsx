@@ -8,12 +8,11 @@ class Work extends React.Component {
         <NavInner />
         <div className="container-blog work-background">
           <header className="title">
-            <img src="../images/workfancy.svg" alt="blog icon" height="130" />
+            <img src="../images/workfancy.svg" alt="work icon" height="130" />
           </header>
-          <section className="standard-entry">
-            <div className="blog-image"></div>
-            <h3 className="blog-title soft-skills">Under Construction</h3>
-          </section>
+          <h3 className="blog-entry-title">
+            He Pokai Manu
+          </h3>
         </div>
       </div>
     );

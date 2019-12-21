@@ -13,14 +13,14 @@ class About extends React.Component {
           <h3 className="blog-entry-title">
             Jill Glass, Fontend Web Developer
           </h3>
-          <p className="blog-entry-container">
+          <div className="blog-entry-container">
             <strong>Contact Me</strong> glass.nz@gmail.com
             <br />
             <br />
-            <strong>Github</strong> https://github.com/jillGlass
+            <strong>Github</strong> <a href={'https://github.com/jillGlass'}target="new">https://github.com/jillGlass</a>
             <br />
             <br />
-            <strong>LinkedIn</strong> https://www.linkedin.com/in/jillglass/
+            <strong>LinkedIn</strong> <a href={'https://www.linkedin.com/in/jillglass/'} target="new">https://linkedin.com/in/jillglass/</a>
             <br />
             <br />
             <p>
@@ -60,7 +60,7 @@ class About extends React.Component {
               have an interest in mobile development - a personal project of
               mine which I designed and wireframed is now getting off the ground in React Native.
             </p>
-          </p>
+          </div>
         </div>
       </div>
     );

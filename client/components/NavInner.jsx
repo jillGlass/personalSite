@@ -1,5 +1,5 @@
-import React from "react"
-import { Link, HashRouter as Router } from "react-router-dom"
+import React from "react";
+import { Link, NavLink, HashRouter as Router } from "react-router-dom";
 
 class Nav extends React.Component {
   render() {
@@ -7,19 +7,39 @@ class Nav extends React.Component {
       <div>
         <ul className="navigation">
           <div className="nav-right">
-              <Router>
-            <li>
-              <Link to='/' className="burger">Home</Link>
-            </li>
-            <li>
-              <Link to='/about' className="burger">About</Link>
-            </li>
-            <li>
-              <Link to='/work' className="burger">Work</Link>
-            </li>
-            <li>
-              <Link to='/blog' className="burger">Blog</Link>
-            </li>
+            <Router>
+              <li>
+                <NavLink
+                  activeClassName="navbar__link--"
+                  className="burger"
+                  to="/">
+                  Home
+                </NavLink>
+              </li>
+              <li>
+              <NavLink
+                  activeClassName="navbar__link--active"
+                  className="burger"
+                  to="/about">
+                  About
+                </NavLink>
+              </li>
+              <li>
+              <NavLink
+                  activeClassName="navbar__link--active"
+                  className="burger"
+                  to="/work">
+                  Work
+                </NavLink>
+              </li>
+              <li>
+              <NavLink
+                  activeClassName="navbar__link--active"
+                  className="burger"
+                  to="/blog">
+                  Blog
+                </NavLink>
+              </li>
             </Router>
           </div>
         </ul>
@@ -29,3 +49,4 @@ class Nav extends React.Component {
 }
 
 export default Nav;
+

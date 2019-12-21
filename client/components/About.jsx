@@ -8,7 +8,7 @@ class About extends React.Component {
         <NavInner />
         <div className="container-blog about-background">
           <header className="title">
-            <img src="../images/aboutfancy.svg" alt="blog icon" height="130" />
+            <img src="../images/aboutfancy.svg" alt="about icon" height="130" />
           </header>
           <h3 className="blog-entry-title">
             Jill Glass, Fontend Web Developer

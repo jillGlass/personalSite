@@ -1,11 +1,11 @@
 import React from "react";
-import Nav from './Nav'
+import NavInner from './NavInner'
 
 class Work extends React.Component {
   render() {
     return (
       <div>
-        <Nav />
+        <NavInner />
         <div className="container-blog work-background">
           <header className="title">
             <img src="../images/workfancy.svg" alt="blog icon" height="130" />

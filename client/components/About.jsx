@@ -49,17 +49,16 @@ class About extends React.Component {
               I am a highly focused, organised and collaborative team member who
               values and fosters a great team culture and who enjoys a fun and
               hardworking team environment. I enjoy learning from others and
-              have a curious nature; with my background in marketing, having
-              worked both agency and client side, I understand the necessity of
-              great UX/UI design.
+              have a curious nature; with my background in marketing,
+              having worked both agency and client side, I understand
+              the necessity of great UX/UI design.
             </p>
             <p>
-              I also have experience in managing internal stakeholders and
-              clients as well as external clients, building strong, ongoing
-              relationships. I have built web apps using React (including Redux)
-              and Github and have an interest in mobile development - a personal
-              project of mine which I designed and wireframed is now getting off
-              the ground in React Native.
+              I also have experience in managing internal stakeholders and clients as
+              well as external clients, building strong, ongoing relationships.
+              I have built web apps using React (including Redux) and Github and
+              have an interest in mobile development - a personal project of
+              mine which I designed and wireframed is now getting off the ground in React Native.
             </p>
           </p>
         </div>

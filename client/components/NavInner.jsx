@@ -1,0 +1,52 @@
+import React from "react";
+import { Link, NavLink, HashRouter as Router } from "react-router-dom";
+
+class Nav extends React.Component {
+  render() {
+    return (
+      <div>
+        <ul className="navigation">
+          <div className="nav-right">
+            <Router>
+              <li>
+                <NavLink
+                  activeClassName="navbar__link--"
+                  className="burger"
+                  to="/">
+                  Home
+                </NavLink>
+              </li>
+              <li>
+              <NavLink
+                  activeClassName="navbar__link--active"
+                  className="burger"
+                  to="/about">
+                  About
+                </NavLink>
+              </li>
+              <li>
+              <NavLink
+                  activeClassName="navbar__link--active"
+                  className="burger"
+                  to="/work">
+                  Work
+                </NavLink>
+              </li>
+              <li>
+              <NavLink
+                  activeClassName="navbar__link--active"
+                  className="burger"
+                  to="/blog">
+                  Blog
+                </NavLink>
+              </li>
+            </Router>
+          </div>
+        </ul>
+      </div>
+    );
+  }
+}
+
+export default Nav;
+

@@ -1,6 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Link } from 'react-router-dom'
-import NavInner from './NavInner'
+import NavInner from "./NavInner";
 
 class Work extends React.Component {
   render() {
@@ -11,44 +10,36 @@ class Work extends React.Component {
           <header className="title">
             <img src="../images/workfancy.svg" alt="work icon" height="130" />
           </header>
-          <h3 className="blog-entry-title">
-          </h3>
+          <h3 className="blog-entry-title"></h3>
           <React.Fragment>
-        <Router>
-          <div className="workContainer">
-          <Link to="/blog">
-            <div className="workColumn-1">
-              He Pokai Manu
+            <div className="workContainer">
+              <div className="workColumn">
+                <a href={"https://github.com/jillGlass"} target="new">
+                  He Pokai Manu
+                </a>
+              </div>
+
+              <div className="workColumn"><a href={"https://github.com/jillGlass"} target="new">
+                  He Pokai Manu
+                </a></div>
+
+              <div className="workColumn"><a href={"https://github.com/jillGlass"} target="new">
+                  He Pokai Manu
+                </a></div>
+
+              <div className="workColumn"><a href={"https://github.com/jillGlass"} target="new">
+                  He Pokai Manu
+                </a></div>
+
+              <div className="workColumn"><a href={"https://github.com/jillGlass"} target="new">
+                  He Pokai Manu
+                </a></div>
+
+              <div className="workColumn"><a href={"https://github.com/jillGlass"} target="new">
+                  He Pokai Manu
+                </a></div>
             </div>
-          </Link>
-          <Link to="/work">
-            <div className="workColumn-2">
-              Calculator
-            </div>
-          </Link>
-          <Link to="/about">
-            <div className="workColumn-3">
-              Food List
-            </div>
-          </Link>
-          <Link to="/blog">
-            <div className="workColumn-1">
-              He Pokai Manu
-            </div>
-          </Link>
-          <Link to="/work">
-            <div className="workColumn-2">
-              Calculator
-            </div>
-          </Link>
-          <Link to="/about">
-            <div className="workColumn-3">
-              Food List
-            </div>
-          </Link>
-          </div>
-        </Router>
-      </React.Fragment>
+          </React.Fragment>
         </div>
       </div>
     );

@@ -111,28 +111,28 @@ body {
   .workContainer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 3fr 3fr 3fr;;
+    grid-template-rows: auto;
   }
 
   .workColumn-1 {
     display: grid;
     align-items: center;
     justify-items: center;
-    grid-template-rows: [title] 110px [intro] 30px [image] 230px [space] auto [end];
+    margin-bottom: 50px;
   }
   
   .workColumn-2 {
     display: grid;
     align-items: center;
     justify-items: center;
-    grid-template-rows: [title] 110px [intro] 30px [image] 230px [space] auto [end];
+    margin-bottom: 50px;
   }
   
   .workColumn-3 {
     display: grid;
     align-items: center;
     justify-items: center;
-    grid-template-rows: [title] 110px [intro] 30px [image] 230px [space] auto [end];
+    margin-bottom: 50px;
   }
   
   .title {
@@ -154,21 +154,30 @@ body {
   }
   
   @media screen and (min-width: 950px) {
-    .container {
+    .container{
       display: grid;
       grid-template-rows: 100vh;
       grid-template-columns: 1fr 1fr 1fr;
     }
+
+  .workContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
+}
   
   @media screen and (max-width: 950px) {
     body {
       margin: 0;
     }
   
-    .container {
+    .container{
       grid-template-columns: 1fr;
     }
+
+    .workContainer{
+        grid-template-columns: 1fr;
+      }
     .column-1 {
       display: grid;
       background-color: #edc7b7;
@@ -195,6 +204,33 @@ body {
       grid-row-start: 3;
       grid-row-end: 4;
     }
+
+    .workColumn-1 {
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        margin-bottom: 50px;
+        grid-row-start: 1;
+        grid-row-end: 2;
+      }
+      
+      .workColumn-2 {
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        margin-bottom: 50px;
+        grid-row-start: 2;
+        grid-row-end: 3;
+      }
+      
+      .workColumn-3 {
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        margin-bottom: 50px;
+        grid-row-start: 3;
+        grid-row-end: 4;
+      }
   }
   
   /*Blog Page*/

@@ -12,7 +12,7 @@ class Main extends React.Component {
               <div className="title">Blog</div>
               <p className="intro">Technical and learning reflections</p>
               <div className="image">
-                <img src="images/blogfancy.svg" alt="blog icon" height="140" />
+                <img src="images/blogfancy.svg" alt="blog icon" height="120" />
               </div>
             </div>
           </Link>
@@ -21,7 +21,7 @@ class Main extends React.Component {
               <div className="title">Work</div>
               <p className="intro">Examples of projects and tinkerings</p>
               <div className="image">
-                <img src="images/workfancy.svg" alt="blog icon" height="140" />
+                <img src="images/workfancy.svg" alt="blog icon" height="120" />
               </div>
             </div>
           </Link>
@@ -30,7 +30,7 @@ class Main extends React.Component {
               <div className="title">About</div>
               <p className="intro">Contact details and a little about me</p>
               <div className="image">
-                <img src="images/aboutfancy.svg" alt="blog icon" height="140" />
+                <img src="images/aboutfancy.svg" alt="blog icon" height="120" />
               </div>
             </div>
           </Link>

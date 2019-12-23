@@ -14,14 +14,22 @@ class About extends React.Component {
             Jill Glass, Fontend Web Developer
           </h3>
           <div className="blog-entry-container">
-            <strong>Contact Me</strong> glass.nz@gmail.com
-            <br />
-            <br />
-            <strong>Github</strong> <a href={'https://github.com/jillGlass'}target="new">https://github.com/jillGlass</a>
-            <br />
-            <br />
-            <strong>LinkedIn</strong> <a href={'https://www.linkedin.com/in/jillglass/'} target="new">https://linkedin.com/in/jillglass/</a>
-            <br />
+            <strong>Contact Me</strong>glass.nz@gmail.com
+            <br></br>
+            <br></br>
+            <strong>Github</strong>
+            <div className="underline">
+              <a href={"https://github.com/jillGlass"} target="new">
+                https://github.com/jillGlass
+              </a>
+            </div>
+            <br></br>
+            <strong>LinkedIn</strong>
+            <div className="underline">
+              <a href={"https://www.linkedin.com/in/jillglass/"} target="new">
+                https://linkedin.com/in/jillglass/
+              </a>
+            </div>
             <br />
             <p>
               <strong>Tech-Stack:</strong> React JS, Redux, Semantic UI, CSS,
@@ -49,16 +57,17 @@ class About extends React.Component {
               I am a highly focused, organised and collaborative team member who
               values and fosters a great team culture and who enjoys a fun and
               hardworking team environment. I enjoy learning from others and
-              have a curious nature; with my background in marketing,
-              having worked both agency and client side, I understand
-              the necessity of great UX/UI design.
+              have a curious nature; with my background in marketing, having
+              worked both agency and client side, I understand the necessity of
+              great UX/UI design.
             </p>
             <p>
-              I also have experience in managing internal stakeholders and clients as
-              well as external clients, building strong, ongoing relationships.
-              I have built web apps using React (including Redux) and Github and
-              have an interest in mobile development - a personal project of
-              mine which I designed and wireframed is now getting off the ground in React Native.
+              I also have experience in managing internal stakeholders and
+              clients as well as external clients, building strong, ongoing
+              relationships. I have built web apps using React (including Redux)
+              and Github and have an interest in mobile development - a personal
+              project of mine which I designed and wireframed is now getting off
+              the ground in React Native.
             </p>
           </div>
         </div>

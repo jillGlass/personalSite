@@ -15,23 +15,23 @@ class Work extends React.Component {
             <div className="workContainer">
 
               <div className="workColumn"><a href={"https://github.com/jillGlass/He-Pokai-Manu"} target="new">
-                  He Pokai Manu<br></br>Final Group Project
+                 <div className ='underline'>He Pokai Manu</div>Final Group Project
                 </a></div>
 
               <div className="workColumn"><a href={"https://jillglass.github.io/calculator/"} target="new">
-                  Calculator<br></br>EDA Foundations Exercise
+              <div className ='underline'>Calculator</div>EDA Foundations Exercise
                 </a></div>
 
               <div className="workColumn"><a href={"https://jillglass.github.io/minesweeper/"} target="new">
-                  Minesweeper<br></br>EDA Foundations Exercise
+              <div className ='underline'>Minesweeper</div>EDA Foundations Exercise
                 </a></div>
 
               <div className="workColumn"><a href={"https://github.com/jillGlass"} target="new">
-                  Food List<br></br>Multi-Day Group Project
+              <div className ='underline'>Food List</div>Multi-Day Group Project
                 </a></div>
 
               <div className="workColumn"><a href={"https://github.com/jillGlass"} target="new">
-                  The Nerd Zealand Herald<br></br>Friday Group Project
+              <div className ='underline'>The Nerd Zealand Herald</div>Friday Group Project
                 </a></div>
             </div>
           </React.Fragment>

@@ -107,6 +107,33 @@ body {
     justify-items: center;
     grid-template-rows: [title] 110px [intro] 30px [image] 230px [space] auto [end];
   }
+
+  .workContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 3fr 3fr 3fr;;
+  }
+
+  .workColumn-1 {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-rows: [title] 110px [intro] 30px [image] 230px [space] auto [end];
+  }
+  
+  .workColumn-2 {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-rows: [title] 110px [intro] 30px [image] 230px [space] auto [end];
+  }
+  
+  .workColumn-3 {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-rows: [title] 110px [intro] 30px [image] 230px [space] auto [end];
+  }
   
   .title {
     display: inline-grid;

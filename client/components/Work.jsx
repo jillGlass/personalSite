@@ -13,30 +13,25 @@ class Work extends React.Component {
           <h3 className="blog-entry-title"></h3>
           <React.Fragment>
             <div className="workContainer">
-              <div className="workColumn">
-                <a href={"https://github.com/jillGlass"} target="new">
-                  He Pokai Manu
-                </a>
-              </div>
 
-              <div className="workColumn"><a href={"https://github.com/jillGlass"} target="new">
-                  He Pokai Manu
+              <div className="workColumn"><a href={"https://github.com/jillGlass/He-Pokai-Manu"} target="new">
+                  He Pokai Manu<br></br>Final Group Project
+                </a></div>
+
+              <div className="workColumn"><a href={"https://jillglass.github.io/calculator/"} target="new">
+                  Calculator<br></br>EDA Foundations Exercise
+                </a></div>
+
+              <div className="workColumn"><a href={"https://jillglass.github.io/minesweeper/"} target="new">
+                  Minesweeper<br></br>EDA Foundations Exercise
                 </a></div>
 
               <div className="workColumn"><a href={"https://github.com/jillGlass"} target="new">
-                  He Pokai Manu
+                  Food List<br></br>Multi-Day Group Project
                 </a></div>
 
               <div className="workColumn"><a href={"https://github.com/jillGlass"} target="new">
-                  He Pokai Manu
-                </a></div>
-
-              <div className="workColumn"><a href={"https://github.com/jillGlass"} target="new">
-                  He Pokai Manu
-                </a></div>
-
-              <div className="workColumn"><a href={"https://github.com/jillGlass"} target="new">
-                  He Pokai Manu
+                  The Nerd Zealand Herald<br></br>Friday Group Project
                 </a></div>
             </div>
           </React.Fragment>

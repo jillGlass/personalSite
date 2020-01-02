@@ -11,7 +11,7 @@ class About extends React.Component {
             <img src="../images/aboutfancy.svg" alt="about icon" height="130" />
           </header>
           <h3 className="entry-title">Jill Glass - Frontend Web Developer</h3>
-          <div className="blog-entry-container">
+          <div className="entry-container">
             <div>
               <strong>Contact Me</strong>
               <div>glass.nz@gmail.com</div>

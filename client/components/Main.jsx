@@ -2,6 +2,11 @@ import React from "react";
 import { Link, HashRouter as Router } from "react-router-dom";
 
 class Main extends React.Component {
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
+}
+
   render() {
     return (
       <React.Fragment>

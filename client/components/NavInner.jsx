@@ -32,14 +32,6 @@ class Nav extends React.Component {
                   Work
                 </NavLink>
               </li>
-              <li>
-              <NavLink
-                  activeClassName="navbar__link--active"
-                  className="burger"
-                  to="/blog">
-                  Blog
-                </NavLink>
-              </li>
             </Router>
           </div>
         </ul>

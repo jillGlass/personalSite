@@ -244,8 +244,8 @@ a:visited {
   }
 }
 
-/* blog entry */
-.blog-entry-container {
+/* work and about entry */
+.entry-container {
   display: inline-grid;
 
   padding-right: 1em;
@@ -253,7 +253,7 @@ a:visited {
   margin: 0;
 }
 
-.blog-entry-title {
+.entry-title {
   border-top: 0.1em black dashed;
   padding-top: 1em;
   padding-bottom: 1em;
@@ -262,7 +262,7 @@ a:visited {
   margin: 0;
   font-size: 1.3em;
 }
-.blog-sub-title {
+.sub-title {
   padding-top: 1em;
   padding-bottom: 1em;
   justify-items: left;

@@ -38,17 +38,6 @@ a:visited {
   text-decoration: none;
 }
 
-.navigation a.active {
-  background-color: rgb(194, 186, 186);
-  padding-top: 25px;
-  padding-bottom: 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-bottom-left-radius: 0.2em;
-  border-bottom-right-radius: 0.2em;
-}
-
 .nav-right a {
   float: right;
   font-size: 18px;

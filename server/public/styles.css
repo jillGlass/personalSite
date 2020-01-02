@@ -4,6 +4,8 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+html {height: 100vh}
+
 ul,
 ol {
   padding: 0;
@@ -113,7 +115,7 @@ a:visited {
 .title {
   display: inline-grid;
   font-size: 3.5em;
-  padding: 60px 0px 0px 0px;
+  padding: 40px 0px 10px 0px;
   justify-items: center;
 }
 
@@ -140,7 +142,7 @@ a:visited {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 1em;
-  padding: 1em 3em 100vh 3em;
+  padding: 1em 3em 10em 3em;
   cursor: default;
   margin-top: 50px;
 }

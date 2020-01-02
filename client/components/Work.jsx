@@ -2,6 +2,11 @@ import React from "react";
 import NavInner from "./NavInner";
 
 class Work extends React.Component {
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
+}
+
   render() {
     return (
       <div>

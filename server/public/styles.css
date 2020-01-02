@@ -25,7 +25,7 @@ a:visited {
   position: relative;
   overflow: hidden;
   list-style: none;
-  background-color: #ececec;
+  background-color: #a3a5a7;
   margin: 0;
   height: 72px;
 }
@@ -74,7 +74,7 @@ a:visited {
 .column-1 {
   display: grid;
   height: 100vh;
-  background-color: #eee2dc;
+  background-color: #40F99B;
   align-items: center;
   justify-items: center;
   grid-template-rows: [title] 110px [intro] 30px [image] 230px [space] auto [end];
@@ -83,7 +83,7 @@ a:visited {
 .column-2 {
   display: grid;
   height: 100vh;
-  background-color: #bab2b5;
+  background-color: #9D69A3;
   align-items: center;
   justify-items: center;
   grid-template-rows: [title] 110px [intro] 30px [image] 230px [space] auto [end];
@@ -159,7 +159,7 @@ a:visited {
   }
   .column-1 {
     display: grid;
-    background-color: #edc7b7;
+    background-color: #40F99B;
     align-items: center;
     justify-items: center;
     grid-row-start: 1;
@@ -169,7 +169,7 @@ a:visited {
 
   .column-2 {
     display: grid;
-    background-color: #eee2dc;
+    background-color: #9D69A3;
     align-items: center;
     justify-items: center;
     grid-row-start: 2;
@@ -185,14 +185,11 @@ a:visited {
   }
 }
 
-/*Blog Page*/
-
-.container-blog {
+.container-work-about {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 1em;
   padding: 1em 3em 100vh 3em;
-  background-color: #edc7b7;
   cursor: default;
 }
 
@@ -263,13 +260,13 @@ a:visited {
 /* about */
 
 .about-background {
-  background-color: #bab2b5;
+  background-color: #9D69A3;
   cursor: default;
 }
 
 /* work */
 
 .work-background {
-  background-color: #eee2dc;
+  background-color: #40F99B;
   cursor: default;
 }

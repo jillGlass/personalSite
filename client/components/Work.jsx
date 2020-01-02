@@ -6,7 +6,7 @@ class Work extends React.Component {
     return (
       <div>
         <NavInner />
-        <div className="container-blog work-background">
+        <div className="container-work-about work-background">
           <header className="title">
             <img src="../images/workfancy.svg" alt="work icon" height="130" />
           </header>

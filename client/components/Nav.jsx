@@ -10,7 +10,8 @@ class Nav extends React.Component {
               <Router>
             <li>
               <Link to='/about' className="burger">
-                Jill Glass<br></br>Frontend Developer
+                <div><strong>Jill Glass</strong></div>
+                <div className='italic'>Frontend Developer</div>
               </Link>
             </li>
             </Router>

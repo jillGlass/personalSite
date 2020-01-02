@@ -25,7 +25,7 @@ a:visited {
   position: relative;
   overflow: hidden;
   list-style: none;
-  background-color: #dfe7f7;
+  background-color: #ffc1c7;
   margin: 0;
   height: 72px;
 }
@@ -33,7 +33,7 @@ a:visited {
 .navigation a {
   color: black;
   float: left;
-  text-align: center;
+  text-align: right;
   padding: 15px 20px;
   text-decoration: none;
 }
@@ -64,6 +64,10 @@ a:visited {
   transition: border-bottom 0.5s ease-in-out;
 }
 
+.italic {
+    font-size: 16px;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -83,7 +87,7 @@ a:visited {
 .column-2 {
   display: grid;
   height: 100vh;
-  background-color: #9D69A3;
+  background-color: #d1ff42;
   align-items: center;
   justify-items: center;
   grid-template-rows: [title] 110px [intro] 30px [image] 230px [space] auto [end];
@@ -170,7 +174,7 @@ a:visited {
 
   .column-2 {
     display: grid;
-    background-color: #9D69A3;
+    background-color: #d1ff42;
     align-items: center;
     justify-items: center;
     grid-row-start: 2;
@@ -261,7 +265,7 @@ a:visited {
 /* about */
 
 .about-background {
-  background-color: #9D69A3;
+  background-color: #d1ff42;
   cursor: default;
 }
 

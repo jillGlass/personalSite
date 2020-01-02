@@ -6,7 +6,7 @@ class About extends React.Component {
     return (
       <div>
         <NavInner />
-        <div className="container-blog about-background">
+        <div className="container-work-about about-background">
           <header className="title">
             <img src="../images/aboutfancy.svg" alt="about icon" height="130" />
           </header>

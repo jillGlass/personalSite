@@ -7,17 +7,9 @@ class Main extends React.Component {
       <React.Fragment>
         <Router>
           <div className="container">
-          <Link to="/blog">
-            <div className="column-1">
-              <div className="title">Blog</div>
-              <p className="intro">Technical and learning reflections</p>
-              <div className="image">
-                <img src="images/blogfancy.svg" alt="blog icon" height="120" />
-              </div>
-            </div>
-          </Link>
+         
           <Link to="/work">
-            <div className="column-2">
+            <div className="column-1">
               <div className="title">Work</div>
               <p className="intro">Examples of projects and tinkerings</p>
               <div className="image">
@@ -26,7 +18,7 @@ class Main extends React.Component {
             </div>
           </Link>
           <Link to="/about">
-            <div className="column-3">
+            <div className="column-2">
               <div className="title">About</div>
               <p className="intro">Contact details and a little about me</p>
               <div className="image">

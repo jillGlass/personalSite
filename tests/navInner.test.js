@@ -1,5 +1,6 @@
 import React from 'react'
 import { mount } from 'enzyme'
+import toJson from 'enzyme-to-json'
 import NavInner from '../client/components/NavInner'
 
 describe('<NavInner /> component test', () => {
@@ -12,6 +13,11 @@ describe('<NavInner /> component test', () => {
     const actual = wrapper.text()
     // Assert
     expect(actual).toContain(expected)
+  })
+  it('render unchanged from previous snapshot', () => {
+    const wrapper = mount(<NavInner/>)
+
+    expect(toJson(wrapper)).toMatchSnapshot()
   })
  
 })

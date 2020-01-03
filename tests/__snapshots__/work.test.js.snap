@@ -1,0 +1,287 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Work /> component test render unchanged from previous snapshot 1`] = `
+<Work>
+  <div>
+    <Nav>
+      <div>
+        <ul
+          className="navigation"
+        >
+          <div
+            className="nav-right"
+          >
+            <HashRouter>
+              <Router
+                history={
+                  Object {
+                    "action": "POP",
+                    "block": [Function],
+                    "createHref": [Function],
+                    "go": [Function],
+                    "goBack": [Function],
+                    "goForward": [Function],
+                    "length": 1,
+                    "listen": [Function],
+                    "location": Object {
+                      "hash": "",
+                      "pathname": "/",
+                      "search": "",
+                      "state": undefined,
+                    },
+                    "push": [Function],
+                    "replace": [Function],
+                  }
+                }
+              >
+                <li>
+                  <NavLink
+                    activeClassName="navbar__link--"
+                    className="burger"
+                    to="/"
+                  >
+                    <Link
+                      aria-current="page"
+                      className="burger navbar__link--"
+                      style={Object {}}
+                      to={
+                        Object {
+                          "hash": "",
+                          "pathname": "/",
+                          "search": "",
+                          "state": null,
+                        }
+                      }
+                    >
+                      <LinkAnchor
+                        aria-current="page"
+                        className="burger navbar__link--"
+                        href="#/"
+                        navigate={[Function]}
+                        style={Object {}}
+                      >
+                        <a
+                          aria-current="page"
+                          className="burger navbar__link--"
+                          href="#/"
+                          onClick={[Function]}
+                          style={Object {}}
+                        >
+                          Home
+                        </a>
+                      </LinkAnchor>
+                    </Link>
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    activeClassName="navbar__link--active"
+                    className="burger"
+                    to="/about"
+                  >
+                    <Link
+                      aria-current={null}
+                      className="burger"
+                      to={
+                        Object {
+                          "hash": "",
+                          "pathname": "/about",
+                          "search": "",
+                          "state": null,
+                        }
+                      }
+                    >
+                      <LinkAnchor
+                        aria-current={null}
+                        className="burger"
+                        href="#/about"
+                        navigate={[Function]}
+                      >
+                        <a
+                          aria-current={null}
+                          className="burger"
+                          href="#/about"
+                          onClick={[Function]}
+                        >
+                          About
+                        </a>
+                      </LinkAnchor>
+                    </Link>
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    activeClassName="navbar__link--active"
+                    className="burger"
+                    to="/work"
+                  >
+                    <Link
+                      aria-current={null}
+                      className="burger"
+                      to={
+                        Object {
+                          "hash": "",
+                          "pathname": "/work",
+                          "search": "",
+                          "state": null,
+                        }
+                      }
+                    >
+                      <LinkAnchor
+                        aria-current={null}
+                        className="burger"
+                        href="#/work"
+                        navigate={[Function]}
+                      >
+                        <a
+                          aria-current={null}
+                          className="burger"
+                          href="#/work"
+                          onClick={[Function]}
+                        >
+                          Work
+                        </a>
+                      </LinkAnchor>
+                    </Link>
+                  </NavLink>
+                </li>
+              </Router>
+            </HashRouter>
+          </div>
+        </ul>
+      </div>
+    </Nav>
+    <div
+      className="container-work-about work-background"
+    >
+      <header
+        className="title"
+      >
+        <img
+          alt="work icon"
+          height="130"
+          src="../images/workfancy.svg"
+        />
+      </header>
+      <h3
+        className="entry-title"
+      >
+        Work Examples and Links
+      </h3>
+      <div>
+        <strong>
+          Final Project:
+        </strong>
+         Our team of 4 had 6 days to plan, create, test and deploy a web app of our choice.  We created He Pokai Manu, a bird spotting PWA for kids.
+      </div>
+      <div>
+        <strong>
+          Friday Project:
+        </strong>
+         One-day projects that saw teams of 4 to 5 people plan, create and (hopefully!) test a site that covered what we had learnt that week, ranging from API's through to Redux.
+      </div>
+      <div>
+        <strong>
+          EDA Exercise:
+        </strong>
+         A class exercise to test our knowledge of HTML, CSS and JavaScript.
+      </div>
+      <br />
+      <div
+        className="workContainer"
+      >
+        <div
+          className="workColumn"
+        >
+          <a
+            href="https://github.com/jillGlass/He-Pokai-Manu"
+            target="new"
+          >
+            <div
+              className="underline"
+            >
+              He Pokai Manu
+            </div>
+            Final Project
+          </a>
+        </div>
+        <div
+          className="workColumn"
+        >
+          <a
+            href="https://github.com/jillGlass/The-Nerd-Zealand-Herald"
+            target="new"
+          >
+            <div
+              className="underline"
+            >
+              The Nerd Zealand Herald
+            </div>
+            Friday Project
+          </a>
+        </div>
+        <div
+          className="workColumn"
+        >
+          <a
+            href="https://github.com/jillGlass/wholesome"
+            target="new"
+          >
+            <div
+              className="underline"
+            >
+              Never Have I Ever Game
+            </div>
+            Friday Project
+          </a>
+        </div>
+        <div
+          className="workColumn"
+        >
+          <a
+            href="https://github.com/jillGlass/EDAte"
+            target="new"
+          >
+            <div
+              className="underline"
+            >
+              EDAte
+            </div>
+            Friday Project
+          </a>
+        </div>
+        <div
+          className="workColumn"
+        >
+          <a
+            href="https://jillglass.github.io/calculator/"
+            target="new"
+          >
+            <div
+              className="underline"
+            >
+              Calculator
+            </div>
+            EDA Exercise
+          </a>
+        </div>
+        <div
+          className="workColumn"
+        >
+          <a
+            href="https://jillglass.github.io/minesweeper/"
+            target="new"
+          >
+            <div
+              className="underline"
+            >
+              Minesweeper
+            </div>
+            EDA Exercise
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</Work>
+`;

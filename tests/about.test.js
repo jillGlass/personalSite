@@ -1,5 +1,6 @@
 import React from 'react'
 import { mount } from 'enzyme'
+import toJson from 'enzyme-to-json'
 import About from '../client/components/About'
 
 describe('<About /> component test', () => {
@@ -24,5 +25,9 @@ describe('<About /> component test', () => {
     // Assert
     expect(actual).toContain(expected)
   })
- 
+  it('render unchanged from previous snapshot', () => {
+    const wrapper = mount(<About/>)
+
+    expect(toJson(wrapper)).toMatchSnapshot()
+  })
 })

@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main /> component test render unchanged from previous snapshot 1`] = `
+<Main>
+  <HashRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <div
+        className="container"
+      >
+        <Link
+          to="/work"
+        >
+          <LinkAnchor
+            href="#/work"
+            navigate={[Function]}
+          >
+            <a
+              href="#/work"
+              onClick={[Function]}
+            >
+              <div
+                className="column-1"
+              >
+                <div
+                  className="title"
+                >
+                  Work
+                </div>
+                <p
+                  className="intro"
+                >
+                  Examples of projects and tinkerings
+                </p>
+                <div
+                  className="image"
+                >
+                  <img
+                    alt="work icon"
+                    height="120"
+                    src="images/workfancy.svg"
+                  />
+                </div>
+              </div>
+            </a>
+          </LinkAnchor>
+        </Link>
+        <Link
+          to="/about"
+        >
+          <LinkAnchor
+            href="#/about"
+            navigate={[Function]}
+          >
+            <a
+              href="#/about"
+              onClick={[Function]}
+            >
+              <div
+                className="column-2"
+              >
+                <div
+                  className="title"
+                >
+                  About
+                </div>
+                <p
+                  className="intro"
+                >
+                  Contact details and a little about me
+                </p>
+                <div
+                  className="image"
+                >
+                  <img
+                    alt="about icon"
+                    height="120"
+                    src="images/aboutfancy.svg"
+                  />
+                </div>
+              </div>
+            </a>
+          </LinkAnchor>
+        </Link>
+      </div>
+    </Router>
+  </HashRouter>
+</Main>
+`;

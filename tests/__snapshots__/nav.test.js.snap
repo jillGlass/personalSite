@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Nav /> component test render unchanged from previous snapshot 1`] = `
+<Nav>
+  <div>
+    <ul
+      className="navigation"
+    >
+      <div
+        className="nav-right"
+      >
+        <HashRouter>
+          <Router
+            history={
+              Object {
+                "action": "POP",
+                "block": [Function],
+                "createHref": [Function],
+                "go": [Function],
+                "goBack": [Function],
+                "goForward": [Function],
+                "length": 1,
+                "listen": [Function],
+                "location": Object {
+                  "hash": "",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                },
+                "push": [Function],
+                "replace": [Function],
+              }
+            }
+          >
+            <li>
+              <Link
+                className="burger"
+                to="/about"
+              >
+                <LinkAnchor
+                  className="burger"
+                  href="#/about"
+                  navigate={[Function]}
+                >
+                  <a
+                    className="burger"
+                    href="#/about"
+                    onClick={[Function]}
+                  >
+                    <div>
+                      <strong>
+                        Jill Glass
+                      </strong>
+                    </div>
+                    <div
+                      className="italic"
+                    >
+                      Frontend Developer
+                    </div>
+                  </a>
+                </LinkAnchor>
+              </Link>
+            </li>
+          </Router>
+        </HashRouter>
+      </div>
+    </ul>
+  </div>
+</Nav>
+`;

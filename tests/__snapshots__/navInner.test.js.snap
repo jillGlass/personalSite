@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavInner /> component test render unchanged from previous snapshot 1`] = `
+<Nav>
+  <div>
+    <ul
+      className="navigation"
+    >
+      <div
+        className="nav-right"
+      >
+        <HashRouter>
+          <Router
+            history={
+              Object {
+                "action": "POP",
+                "block": [Function],
+                "createHref": [Function],
+                "go": [Function],
+                "goBack": [Function],
+                "goForward": [Function],
+                "length": 1,
+                "listen": [Function],
+                "location": Object {
+                  "hash": "",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                },
+                "push": [Function],
+                "replace": [Function],
+              }
+            }
+          >
+            <li>
+              <NavLink
+                activeClassName="navbar__link--"
+                className="burger"
+                to="/"
+              >
+                <Link
+                  aria-current="page"
+                  className="burger navbar__link--"
+                  style={Object {}}
+                  to={
+                    Object {
+                      "hash": "",
+                      "pathname": "/",
+                      "search": "",
+                      "state": null,
+                    }
+                  }
+                >
+                  <LinkAnchor
+                    aria-current="page"
+                    className="burger navbar__link--"
+                    href="#/"
+                    navigate={[Function]}
+                    style={Object {}}
+                  >
+                    <a
+                      aria-current="page"
+                      className="burger navbar__link--"
+                      href="#/"
+                      onClick={[Function]}
+                      style={Object {}}
+                    >
+                      Home
+                    </a>
+                  </LinkAnchor>
+                </Link>
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                activeClassName="navbar__link--active"
+                className="burger"
+                to="/about"
+              >
+                <Link
+                  aria-current={null}
+                  className="burger"
+                  to={
+                    Object {
+                      "hash": "",
+                      "pathname": "/about",
+                      "search": "",
+                      "state": null,
+                    }
+                  }
+                >
+                  <LinkAnchor
+                    aria-current={null}
+                    className="burger"
+                    href="#/about"
+                    navigate={[Function]}
+                  >
+                    <a
+                      aria-current={null}
+                      className="burger"
+                      href="#/about"
+                      onClick={[Function]}
+                    >
+                      About
+                    </a>
+                  </LinkAnchor>
+                </Link>
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                activeClassName="navbar__link--active"
+                className="burger"
+                to="/work"
+              >
+                <Link
+                  aria-current={null}
+                  className="burger"
+                  to={
+                    Object {
+                      "hash": "",
+                      "pathname": "/work",
+                      "search": "",
+                      "state": null,
+                    }
+                  }
+                >
+                  <LinkAnchor
+                    aria-current={null}
+                    className="burger"
+                    href="#/work"
+                    navigate={[Function]}
+                  >
+                    <a
+                      aria-current={null}
+                      className="burger"
+                      href="#/work"
+                      onClick={[Function]}
+                    >
+                      Work
+                    </a>
+                  </LinkAnchor>
+                </Link>
+              </NavLink>
+            </li>
+          </Router>
+        </HashRouter>
+      </div>
+    </ul>
+  </div>
+</Nav>
+`;

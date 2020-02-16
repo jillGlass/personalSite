@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, NavLink, HashRouter as Router } from "react-router-dom";
 
-class Nav extends React.Component {
+class NavInner extends React.Component {
   render() {
     return (
       <div>
@@ -21,7 +21,7 @@ class Nav extends React.Component {
                   activeClassName="navbar__link--active"
                   className="burger"
                   to="/about">
-                  About
+                  About Me
                 </NavLink>
               </li>
               <li>
@@ -29,7 +29,7 @@ class Nav extends React.Component {
                   activeClassName="navbar__link--active"
                   className="burger"
                   to="/work">
-                  Work
+                  My Work
                 </NavLink>
               </li>
             </Router>
@@ -40,5 +40,5 @@ class Nav extends React.Component {
   }
 }
 
-export default Nav;
+export default NavInner;
 

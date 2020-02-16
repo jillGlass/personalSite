@@ -1,12 +1,12 @@
 import React from "react";
-import Nav from "./Nav";
+import NavInner from "./NavInner";
 import Main from "./Main";
 
 class Container extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Nav />
+        <NavInner />
         <Main />
       </React.Fragment>
     );

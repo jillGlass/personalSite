@@ -79,6 +79,32 @@ a:visited {
   margin-top: 72px;
 }
 
+.top-row {
+  background-color: white;
+  
+  padding-top: 8rem;
+}
+
+.center-name {
+  font-size: 2rem;
+  color:#EF7480;
+  text-align: center;
+}
+
+.center-name-secondary {
+  font-size: 1rem;
+  color:#EF7480;
+  text-align: center;
+}
+
+.center-name-copy {
+  font-size: 1rem;
+  color:#005D6F;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+
 .column-1 {
   display: grid;
   height: 100vh;

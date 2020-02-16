@@ -11,6 +11,12 @@ class Main extends React.Component {
     return (
       <React.Fragment>
         <Router>
+          <div className='top-row'>
+            <div className='center-name'>Jill Glass</div>
+            <div className='center-name-secondary'>FRONTEND DEVELOPER</div>
+            <div className='center-name-copy'> Seeking a junior role within an established team.</div>
+           
+          </div>
           <div className="container">
          
           <Link to="/work">

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, HashRouter as Router } from "react-router-dom";
+import Footer from '../components/Footer'
 
 class Main extends React.Component {
   componentDidMount() {
@@ -48,10 +49,8 @@ class Main extends React.Component {
             </Link>
             <div className='column-right'></div>
           </div>
-          <div className="bottom-row">
-            <div className="center-name-copy">glass.nz@gmail.com</div>
-            <div className="center-name-secondary icon-padding"><img src='images/icons8-linkedin-circled-48.png' height='37'/><img src='images/icons8-github-48.png' height='37'/></div>
-          </div>
+          <Footer />
+          
         </Router>
       </React.Fragment>
     );

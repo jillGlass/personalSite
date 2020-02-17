@@ -278,4 +278,12 @@ a:visited {
     padding: 30px 0px 0px 0px;
     justify-items: center;
   }
+
+  .center-name-copy {
+    font-size: 1rem;
+    color:#005D6F;
+    text-align: center;
+    padding: 2rem 1rem 0rem 1rem;
+
+  }
 }

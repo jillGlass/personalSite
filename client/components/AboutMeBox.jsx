@@ -9,12 +9,13 @@ const AboutMeBox = () => {
           <div className="about-title">Story Time...</div>
           <div className="about-copy">
             <section className="section-padding">
-              After a career break (8 years in marketing) I dove in to
+              After a career break (and after 8 years in marketing) I dove in to
               programming, particularly front-end development, where I find I
               have transferrable skills that complement my new technical
               capability. My first step was joining Girl Code to gain some
               insight and basic experience.
             </section>
+            <br></br>
             <section className="section-padding">
               {" "}
               After Girl Code levels 1 and 2 I enrolled in Enspiral Dev Academy.
@@ -25,15 +26,17 @@ const AboutMeBox = () => {
               had a great sense of humour. I also made sure we had an inclusive
               environment for all to enjoy.{" "}
             </section>
+            <br></br>
             <section className="section-padding">
               I am a highly focused, organised and collaborative team member who
               values and fosters a great team culture and who enjoys a fun and
               hardworking team environment. I enjoy learning from others and I
               have a curious nature. Having worked both agency and client side
-              in marketing roles I understand the common challenges of
+              in marketing roles.  I understand the common challenges of
               publishing great digital product and managing expectations both
               informally and in structured processes.{" "}
             </section>
+            <br></br>
             <section className="section-padding">
               While I'm not coding I love to get away in our caravan, snowboard
               and read way too much news online.
@@ -80,14 +83,7 @@ const AboutMeBox = () => {
             open, organised, understanding, accommodating, social.{" "}
           </div>
           <div className="title-skills-stack">CONTACT</div>
-          <div>
-            <a href="https://www.linkedin.com/in/jillglass/">
-              <img src="images/icons8-linkedin-circled-48.png" height="37" />
-            </a>
-            <a href="https://github.com/jillGlass">
-              <img src="images/icons8-github-48.png" height="37" />
-            </a>
-          </div>
+         
           <div>glass.nz@gmail.com</div>
         </div>
       </div>

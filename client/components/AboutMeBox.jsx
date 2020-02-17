@@ -5,7 +5,7 @@ const AboutMeBox = () => {
   return (
     <div>
       <div className="stack-container">
-        <div className="AboutBox-column-1">
+        <div className="aboutBox-column-1">
           <div className="center-name">Story Time</div>
           <div className="center-name-copy">
             After a career break (8 years in marketing) I dove in to

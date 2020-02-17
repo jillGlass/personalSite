@@ -149,10 +149,17 @@ a:visited {
   grid-template-columns: 2fr 1fr;
   margin-top: 72px;
   z-index: 1;
-  margin:  -8rem 20rem 0rem 20rem;
-  text-align: center;
+  margin:  -12rem 20rem 0rem 20rem;
+  text-align: left;
   background-color: white;
   box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  padding: 3rem;
+  line-height: 1.5rem;
+}
+
+.aboutBox-column-1 {
+  text-align: left;
+  justify-content: left;
 }
 
 .workContainer {

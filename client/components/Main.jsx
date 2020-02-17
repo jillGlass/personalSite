@@ -19,6 +19,7 @@ class Main extends React.Component {
             </div>
           </div>
           <div className="container">
+            <div className='column-left'></div>
             <Link to="/work">
               <div className="column-1">
                 <div className="title">Work</div>
@@ -45,6 +46,7 @@ class Main extends React.Component {
                 </div>
               </div>
             </Link>
+            <div className='column-right'></div>
           </div>
           <div className="bottom-row">
             <div className="center-name-copy">glass.nz@gmail.com</div>

@@ -1,5 +1,7 @@
 import React from "react";
 import NavInner from "./NavInner";
+import Footer from "./Footer";
+import WorkBoxWheko from './WorkBoxWheko'
 
 class Work extends React.Component {
 
@@ -10,8 +12,25 @@ class Work extends React.Component {
   render() {
     return (
       <div>
-        <NavInner />
+         <NavInner />
         <div className="container-work-about work-background">
+          <header className="title-about-page">
+            <img src="../images/workfancy.svg" alt="work icon" height="130" />
+          </header>
+          
+          </div>
+          <div className='work-row-green-strip'></div>
+          <WorkBoxWheko />
+        
+        <Footer />
+      </div>
+    );
+  }
+}
+
+export default Work;
+
+{/* <div className="container-work-about work-background">
           <header className="title">
             <img src="../images/workfancy.svg" alt="work icon" height="130" />
           </header>
@@ -50,15 +69,4 @@ class Work extends React.Component {
               <div className="workColumn"><a href={"https://jillglass.github.io/minesweeper/"} target="new">
               <div className ='underline'>Minesweeper</div>EDA Exercise
                 </a></div>
-            </div>
-
-            
-        
-        </div>
-      </div>
-    );
-  }
-}
-
-export default Work;
-
+            </div> */}

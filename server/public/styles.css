@@ -160,14 +160,15 @@ a:visited {
 .aboutBox-column-1 {
   text-align: left;
   justify-content: left;
-  padding: 3rem;
+  padding: 2rem;
   color: #005D6F;
 }
 
 .aboutBox-column-2 {
   text-align: left;
   justify-content: left;
-  padding: 3rem;
+  padding: 2rem;
+  color: #005D6F;
 }
 
 .about-title {
@@ -182,6 +183,21 @@ a:visited {
 
 .section-padding {
   padding: 1rem 0rem;
+}
+
+.section-padding-tech {
+  padding-bottom: 1rem 0rem .5rem 0rem;
+}
+
+.title-tech-stack {
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+.green-box {
+  background-color: #B3E028;
+  padding: .5rem;
+  margin: .2rem .2rem .2rem 0rem;
 }
 
 .workContainer {

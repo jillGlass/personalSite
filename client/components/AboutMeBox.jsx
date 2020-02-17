@@ -40,8 +40,30 @@ const AboutMeBox = () => {
             </section>
           </div>
         </div>
-        <div className="AboutBox-column-2">
-          <div className="title">Tech Stack</div>
+        <div className="aboutBox-column-2">
+          <div className="title-tech-stack">TECH STACK</div>
+          <section className='section-padding'>
+              <text className='green-box'>React</text>
+              <text className='green-box'>Redux</text>
+              <text className='green-box'>JavaScript</text>
+          </section>
+          <section className='section-padding-tech'>
+              <text className='green-box'>CSS</text>
+              <text className='green-box'>HTML</text>
+              <text className='green-box'>Bootstrap</text>
+          </section>
+          <section className='section-padding'>
+              <text className='green-box'>Semantic UI</text>
+              <text className='green-box'>Adobe XD</text>
+          </section>
+          <section className='section-padding-tech'>
+              <text className='green-box'>Postman</text>
+              <text className='green-box'>Node.JS</text>
+          </section>
+          <section className='section-padding'>
+              <text className='green-box'>SuperAgent</text>
+              <text className='green-box'>Dotmailer</text>
+          </section>
         </div>
       </div>
     </div>

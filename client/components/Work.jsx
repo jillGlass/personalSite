@@ -15,7 +15,7 @@ class Work extends React.Component {
           <header className="title">
             <img src="../images/workfancy.svg" alt="work icon" height="130" />
           </header>
-          <h3 className="entry-title">Work Examples and Links</h3>
+          <h3 className="entry-title">Work Examples and Links -- PAGE UNDER CONSTRUCTION...</h3>
           <div><strong>Personal Project:</strong> React and React Native projects that I have been creating in my spare time.</div>
           <div><strong>Final Project:</strong> Our team of 4 had 6 days to plan, create, test and deploy a web app of our choice.  We created He Pokai Manu, a bird spotting PWA for kids.</div>
           <div><strong>Friday Project:</strong> One-day projects that saw teams of 4 to 5 people plan, create and (hopefully!) test a site that covered what we had learnt that week, ranging from API's through to Redux.</div>

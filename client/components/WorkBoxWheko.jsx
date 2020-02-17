@@ -3,7 +3,7 @@ import React from 'react'
 const WorkBoxWheko = () => {
     return (
     <div>
-         <div className="work-container">
+         <div className="work-container-wheko">
     <div className="aboutBox-column-1">
     <div className="work-title">Wheko</div>
     <div className="about-copy">

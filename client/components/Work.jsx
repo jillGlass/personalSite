@@ -2,6 +2,7 @@ import React from "react";
 import NavInner from "./NavInner";
 import Footer from "./Footer";
 import WorkBoxWheko from './WorkBoxWheko'
+import WorkBoxHouseHolder from "./WorkBoxHouseHolder";
 
 class Work extends React.Component {
 
@@ -21,6 +22,7 @@ class Work extends React.Component {
           </div>
           <div className='work-row-green-strip'></div>
           <WorkBoxWheko />
+          <WorkBoxHouseHolder />
         
         <Footer />
       </div>

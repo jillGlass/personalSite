@@ -76,6 +76,13 @@ const AboutMeBox = () => {
           </section>
           <div className="title-skills-stack">SOFT-SKILLS</div>
           <div className='soft-skills-copy'>Disciplined, inquisitive, team focused, hardworking, respectful, open, organised, understanding, accommodating, social. </div>
+          <div className="title-skills-stack">CONTACT</div>
+          <div >
+          <img src="images/icons8-linkedin-circled-48.png" height="37" />
+          <img src="images/icons8-github-48.png" height="37" />
+        </div>
+        <div>glass.nz@gmail.com</div>
+
         </div>
       </div>
     </div>

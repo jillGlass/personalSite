@@ -302,6 +302,8 @@ a:visited {
     grid-template-columns: 1fr 1fr;
     text-align: center;
   }
+
+
 }
 
 @media screen and (max-width: 765px) {

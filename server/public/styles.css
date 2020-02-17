@@ -397,4 +397,19 @@ a:visited {
     margin-top: 7rem;
     margin-bottom: 3rem;
   }
+
+  .intro {
+    margin-top: 4rem;
+  }
+
+  .section-padding {
+    display: flex;
+    flex-direction:row;
+  }
+  
+  .section-padding-tech {
+    padding-bottom: 1rem 0rem 1rem 0rem;
+    display: flex;
+    flex-direction:row;
+  }
 }

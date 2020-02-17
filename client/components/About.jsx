@@ -14,7 +14,7 @@ class About extends React.Component {
       <div>
         <NavInner />
         <div className="container-work-about about-background">
-          <header className="title">
+          <header className="title-about-page">
             <img src="../images/aboutfancy.svg" alt="about icon" height="130" />
           </header>
           

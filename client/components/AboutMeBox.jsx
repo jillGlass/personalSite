@@ -43,27 +43,39 @@ const AboutMeBox = () => {
         <div className="aboutBox-column-2">
           <div className="title-tech-stack">TECH STACK</div>
           <section className='section-padding'>
-              <text className='green-box'>React</text>
-              <text className='green-box'>Redux</text>
-              <text className='green-box'>JavaScript</text>
+              <div className='green-box'>React</div>
+              <div className='green-box'>Redux</div>
+              <div className='green-box'>JavaScript</div>
           </section>
           <section className='section-padding-tech'>
-              <text className='green-box'>CSS</text>
-              <text className='green-box'>HTML</text>
-              <text className='green-box'>Bootstrap</text>
+              <div className='green-box'>CSS</div>
+              <div className='green-box'>HTML</div>
+              <div className='green-box'>Bootstrap</div>
           </section>
           <section className='section-padding'>
-              <text className='green-box'>Semantic UI</text>
-              <text className='green-box'>Adobe XD</text>
+              <div className='green-box'>Semantic UI</div>
+              <div className='green-box'>Adobe XD</div>
           </section>
           <section className='section-padding-tech'>
-              <text className='green-box'>Postman</text>
-              <text className='green-box'>Node.JS</text>
+              <div className='green-box'>Postman</div>
+              <div className='green-box'>Node.JS</div>
           </section>
           <section className='section-padding'>
-              <text className='green-box'>SuperAgent</text>
-              <text className='green-box'>Dotmailer</text>
+              <div className='green-box'>SuperAgent</div>
+              <div className='green-box'>Dotmailer</div>
           </section>
+          <div className="title-skills-stack">TESTING SUITE</div>
+          <section className='section-padding'>
+              <div className='green-box'>Jest</div>
+              <div className='green-box'>Enzyme</div>
+              <div className='green-box'>Nock</div>
+          </section>
+          <section className='section-padding-tech'>
+              <div className='green-box'>SuperTest</div>
+              <div className='green-box'>Cheerio</div>
+          </section>
+          <div className="title-skills-stack">SOFT-SKILLS</div>
+          <div className='soft-skills-copy'>Disciplined, inquisitive, team focused, hardworking, respectful, open, organised, understanding, accommodating, social. </div>
         </div>
       </div>
     </div>

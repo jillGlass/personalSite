@@ -1,5 +1,4 @@
 import React from "react";
-import { Link, HashRouter as Router } from "react-router-dom";
 
 const AboutMeBox = () => {
   return (

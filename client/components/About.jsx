@@ -1,5 +1,6 @@
 import React from "react";
 import NavInner from "./NavInner";
+import Footer from './Footer'
 
 class About extends React.Component {
 
@@ -90,6 +91,7 @@ class About extends React.Component {
           </div>
         </div>
         
+        <Footer />
       </div>
       
     );

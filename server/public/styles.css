@@ -160,6 +160,28 @@ a:visited {
 .aboutBox-column-1 {
   text-align: left;
   justify-content: left;
+  padding: 3rem;
+  color: #005D6F;
+}
+
+.aboutBox-column-2 {
+  text-align: left;
+  justify-content: left;
+  padding: 3rem;
+}
+
+.about-title {
+  font-size: 2rem;
+  color: #005D6F;
+}
+
+.about-copy {
+  font-size: 1rem;
+  padding-top: 2rem;
+}
+
+.section-padding {
+  padding: 1rem 0rem;
 }
 
 .workContainer {

@@ -240,7 +240,7 @@ a:visited {
   color: #005d6f;
 }
 
-.work-container-householder {
+.work-container-next {
   margin-top: 72px;
   z-index: 1;
   margin: 4rem 20rem 0rem 20rem;
@@ -268,25 +268,6 @@ a:visited {
   justify-content: right;
 }
 
-/* .work-box {
-  padding: 1rem;
-  color: #005d6f;
-} */
-
-/* .workContainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  align-items: center;
-  justify-items: center;
-} */
-
-/* .workColumn {
-  display: grid;
-  align-items: center;
-  justify-items: center;
-  margin-bottom: 50px;
-} */
 
 .title {
   display: inline-grid;

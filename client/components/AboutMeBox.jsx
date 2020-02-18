@@ -1,5 +1,4 @@
 import React from "react";
-import { Link, HashRouter as Router } from "react-router-dom";
 
 const AboutMeBox = () => {
   return (
@@ -9,32 +8,17 @@ const AboutMeBox = () => {
           <div className="about-title">Story Time...</div>
           <div className="about-copy">
             <section className="section-padding">
-              After a career break (and after 8 years in marketing) I dove in to
-              programming, particularly front-end development, where I find I
-              have transferrable skills that complement my new technical
-              capability. My first step was joining Girl Code to gain some
-              insight and basic experience.
+            I dove in to web development in 2018, joining Girl Code L1 and L2 to gain some insight and basic experience in digital tools.  I found the work challenging and fun, and that I had transferrable skills from my previous career in marketing.  
             </section>
             <br></br>
             <section className="section-padding">
               {" "}
-              After Girl Code levels 1 and 2 I enrolled in Enspiral Dev Academy.
-              My cohort and teachers described me as having high standards for
-              myself and others, and an excellent planner - I planned out each
-              of the projects we worked on, which is where my organisational
-              skills came to be an asset. They stated that while I worked hard I
-              had a great sense of humour. I also made sure we had an inclusive
-              environment for all to enjoy.{" "}
+              I then enrolled in Enspiral Dev Academy. During the bootcamp we covered a wide range of topics, from JavaScript, SQL databases (and CRUD), React with webpack, redux and API's through to unit testing and TDD. There was a lot of emphasis on soft-skills too, where we learnt about and practiced giving and receiving feedback, Agile principals, dealing with stress and presenting to a large group.
+              
             </section>
             <br></br>
             <section className="section-padding">
-              I am a highly focused, organised and collaborative team member who
-              values and fosters a great team culture and who enjoys a fun and
-              hardworking team environment. I enjoy learning from others and I
-              have a curious nature. Having worked both agency and client side
-              in marketing roles.  I understand the common challenges of
-              publishing great digital product and managing expectations both
-              informally and in structured processes.{" "}
+            My cohort and teachers recommend me most for my planning organisational skills, and stated that while I worked hard and set high standards for myself and others, I had a great sense of humour. I also made sure we had an inclusive environment for all to enjoy. 
             </section>
             <br></br>
             <section className="section-padding">

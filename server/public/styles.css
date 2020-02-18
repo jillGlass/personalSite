@@ -304,23 +304,6 @@ a:visited {
   margin-top: 50px;
 }
 
-/* .entry-container {
-  display: inline-grid;
-
-  padding-right: 1em;
-  font-size: 1em;
-  margin: 0;
-} */
-
-/* .entry-title {
-  border-top: 0.1em black dashed;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  justify-items: left;
-  align-items: center;
-  margin: 0;
-  font-size: 1.3em;
-} */
 
 .about-background {
   background-color: #d1ff41;
@@ -345,7 +328,9 @@ a:visited {
 } */
 
 @media screen and (max-width: 765px) {
+
   /* home */
+
   body {
     margin: 0;
   }
@@ -448,6 +433,30 @@ a:visited {
     padding-bottom: 1rem 0rem 1rem 0rem;
     display: flex;
     flex-direction: row;
+  }
+
+  /* work */
+
+
+  .work-background {
+    background-color: #40f99b;
+    cursor: default;
+    padding: 0;
+    margin: 0;
+  }
+  .work-container-next {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 2rem;
+    padding: 1rem;
+    box-shadow: none;
+  }
+  .work-container-wheko {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 2rem;
+    padding: 1rem;
+    box-shadow: none;
   }
 }
 

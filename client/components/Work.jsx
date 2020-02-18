@@ -5,6 +5,7 @@ import WorkBoxWheko from './WorkBoxWheko'
 import WorkBoxHouseHolder from "./WorkBoxHouseHolder";
 import WorkBoxCalculator from "./WorkBoxCalculator";
 import WorkBoxManu from "./WorkBoxManu";
+import WorkBoxPersonal from "./WorkBoxPersonal";
 
 class Work extends React.Component {
 
@@ -24,6 +25,7 @@ class Work extends React.Component {
           </div>
           <div className='work-row-green-strip'></div>
           <WorkBoxWheko />
+          <WorkBoxPersonal />
           <WorkBoxHouseHolder />
           <WorkBoxManu />
           <WorkBoxCalculator />

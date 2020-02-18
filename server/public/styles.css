@@ -578,4 +578,35 @@ a:visited {
     display: flex;
     flex-direction: row;
   }
+
+  /* work */
+
+  .work-background {
+    background-color: #40f99b;
+    cursor: default;
+    padding: 0;
+    margin: 0;
+  }
+  .work-container-next {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 2rem;
+    padding: 1rem;
+    box-shadow: none;
+  }
+  .work-container-wheko {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 2rem;
+    padding: 1rem;
+    box-shadow: none;
+  }
+  .title-left {
+    display: grid;
+    font-size: 2rem;
+    color: #005d6f;
+    align-items: center;
+    line-height: 1.1;
+    
+  }
 }

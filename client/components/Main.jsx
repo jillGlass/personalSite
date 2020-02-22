@@ -24,7 +24,7 @@ class Main extends React.Component {
             <Link to="/work">
               <div className="column-1">
                 <div className="title">Work</div>
-                <p className="intro">Examples of projects and tinkerings</p>
+                <p className="intro">Linking to my tinkering</p>
                 <div className="image">
                   <img
                     src="images/workfancy.svg"
@@ -37,7 +37,7 @@ class Main extends React.Component {
             <Link to="/about">
               <div className="column-2">
                 <div className="title">About</div>
-                <p className="intro">Contact details and a little about me</p>
+                <p className="intro">More than just a phone number</p>
                 <div className="image">
                   <img
                     src="images/aboutfancy.svg"

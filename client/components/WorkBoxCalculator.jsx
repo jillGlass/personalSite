@@ -3,7 +3,7 @@ import React from 'react'
 const WorkBoxCalculator = () => {
     return (
        <div>
-         <div className="work-container-next">
+         <div className="work-container-bottom">
     <div className="work-box">
       <div className='work-title-icon-container'>
     <div className="title-left"><a href='https://jillglass.github.io/calculator/' >Calculator</a></div>

@@ -6,7 +6,7 @@ const WorkBoxWheko = () => {
          <div className="work-container-wheko">
     <div className="work-box">
       <div className='work-title-icon-container'>
-    <div className="title-left">Wheko</div>
+    <div className="title-left"><a href='https://wheko.herokuapp.com' >Wheko</a></div>
     <div className='icon-right'><a href='https://github.com/jillGlass/Wheko' ><img src='images/icons8-github-48.png' /></a></div>
     
     </div>

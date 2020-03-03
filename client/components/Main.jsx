@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, HashRouter as Router } from "react-router-dom";
-import Footer from '../components/Footer'
+
 
 class Main extends React.Component {
   componentDidMount() {
@@ -14,10 +14,10 @@ class Main extends React.Component {
           <div className="top-row">
             <div className="center-name">Jill Glass</div>
             <div className="center-name-secondary">FRONTEND DEVELOPER</div>
-            <div className="center-name-copy">
+            {/* <div className="center-name-copy">
               {" "}
               Seeking a junior role within an established team.
-            </div>
+            </div> */}
           </div>
           <div className="container">
             <div className='column-left'></div>
@@ -50,7 +50,6 @@ class Main extends React.Component {
             <div className='column-right'></div>
           </div>
 
-          <Footer />
           
 
         </Router>

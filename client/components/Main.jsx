@@ -49,7 +49,9 @@ class Main extends React.Component {
             </Link>
             <div className='column-right'></div>
           </div>
+
           
+
         </Router>
       </React.Fragment>
     );

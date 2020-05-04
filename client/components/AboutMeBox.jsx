@@ -18,7 +18,7 @@ const AboutMeBox = () => {
             </section>
             <br></br>
             <section className="section-padding">
-            My cohort and teachers recommend me most for my planning organisational skills, and stated that while I worked hard and set high standards for myself and others, I had a great sense of humour. I also made sure we had an inclusive environment for all to enjoy. 
+            My cohort and teachers recommend me most for my planning and organisational skills, and stated that while I worked hard and set high standards for myself and others, I had a great sense of humour. I also made sure we had an inclusive environment for all to enjoy. 
             </section>
             <br></br>
             <section className="section-padding">
